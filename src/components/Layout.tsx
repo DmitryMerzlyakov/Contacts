@@ -8,7 +8,7 @@ interface IGapRow {
   children: React.ReactNode;
 }
 
-const GapRow = ({ style, children }: IGapRow) => {
+export const GapRow = ({ style, children }: IGapRow) => {
   return <Row style={style}>{children}</Row>;
 };
 

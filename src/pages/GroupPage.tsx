@@ -39,7 +39,7 @@ export const GroupPage = memo<CommonPageProps>(
             <Col>
               <Row xxl={4} className="g-4">
                 {contacts.map((contact) => (
-                  <Col key={contact.id}>
+                  <Col key={contact.id} md={3}>
                     <ContactCard contact={contact} withLink />
                   </Col>
                 ))}
